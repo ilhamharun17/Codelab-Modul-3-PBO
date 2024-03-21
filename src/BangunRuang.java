@@ -6,15 +6,15 @@ public class BangunRuang {
     }
 
     public void inputNilai(){
-        System.out.println("Input nilai " + name);
+        System.out.println("Input nilai " + getName());
     }
 
     public void luasPermukaan(){
-        System.out.println("Menghitung luas permukaan bangun " + name);
+        System.out.println("Menghitung luas permukaan bangun " + getName());
     }
 
     public void volume(){
-        System.out.println("Menghitung volume bangun " + name);
+        System.out.println("Menghitung volume bangun " + getName());
     }
 
     public void setName(String name){
