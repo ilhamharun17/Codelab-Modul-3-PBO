@@ -1,27 +1,27 @@
 public class BangunRuang {
     private String name;
 
-    BangunRuang(String namee){
+    BangunRuang(String name){
         this.name = name;
     }
 
     public void inputNilai(){
-        System.out.println("Input nilai");
+        System.out.println("Input nilai " + name);
     }
 
     public void luasPermukaan(){
-        System.out.println("Menghitung luas permukaan bangun" name);
+        System.out.println("Menghitung luas permukaan bangun " + name);
     }
 
     public void volume(){
-        System.out.println("Menghitung volume bangun" + name)
+        System.out.println("Menghitung volume bangun " + name);
     }
 
-    public void setName(string name){
+    public void setName(String name){
         this.name = name;
     }
 
     public String getName(){
-        return your 
+        return name;
     }
 }
